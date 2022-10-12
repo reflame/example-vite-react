@@ -1,0 +1,34 @@
+{
+  // This is a JSON with Comments file.
+  // It's basically JSON, with the addition of comments, and looser syntax 
+  // (trailing commas!).
+  
+  // Reflame uses this to identify your app.
+  "appId": "01GF70GM97D8KFNFDS2HZ8HGKY",
+
+  // Reflame will watch this directory for your React source code and ship changes
+  // instantly. 
+  
+  // This normally defaults to 'app', but we set this to 'src' for you
+  // since we noticed you're using Vite.
+  //
+  // If your React app lives somewhere other than the 'src' folder, 
+  // we'll need your help by pointing to it here.
+  "baseDirectory": "src",
+
+  // NPM packages listed here will be installed by Reflame every time you update this file.
+  // 
+  // It's important to only include packages that will be used by your app in browsers here.
+  // Including dev-time dependencies that run in node can result in deploy failures and poor
+  // performance.
+  "npmPackages": {
+    // // This key is the import identifier. You can use anything, but we recommend sticking 
+    // // with the name of the package unless you have a reason not to.
+    // "framer-motion": {
+    //   // This is the name of the package on NPM.
+    //   "name": "framer-motion",
+    //   // Version range of the package to use.
+    //   "version": "^6.2.8",
+    // },
+  },
+}
