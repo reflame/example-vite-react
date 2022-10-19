@@ -24,8 +24,7 @@
   // Including dev-time dependencies that run in node can result in deploy failures and poor
   // performance.
   "npmPackages": {
-    // // This key is the import identifier. You can use anything, but we recommend sticking 
-    // // with the name of the package unless you have a reason not to.
+    // // This key is the name we'll use to import the package.
     // "framer-motion": {
     //   // This is the name of the package on NPM.
     //   "name": "framer-motion",
