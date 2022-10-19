@@ -8,13 +8,15 @@
 
   // Reflame will watch this directory for your React source code and ship changes
   // instantly. 
-  
-  // This normally defaults to 'app', but we set this to 'src' for you
-  // since we noticed you're using Vite.
   //
-  // If your React app lives somewhere other than the 'src' folder, 
-  // we'll need your help by pointing to it here.
+  // This normally defaults to 'app', but we set this to 'src' for Vite compatibility.
   "baseDirectory": "src",
+    
+  // Reflame will use this to keep your app up to date as we make improvements. 
+  "foundation": {
+    "name": "vite-react",
+    "version": 1,
+  },
 
   // NPM packages listed here will be installed by Reflame every time you update this file.
   // 
