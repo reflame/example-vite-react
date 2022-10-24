@@ -5,6 +5,11 @@
   
   // Reflame uses this to identify your app.
   "appId": "01GF70GM97D8KFNFDS2HZ8HGKY",
+    
+  // This is what shows up in the browser's tab bar.
+  "title": "Reflame App",
+  // This is the description that shows up in Google search.
+  "description": "A new Reflame app.",
 
   // Reflame will watch this directory for your React source code and ship changes
   // instantly. 
