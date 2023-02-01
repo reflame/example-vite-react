@@ -15,7 +15,7 @@
   // instantly. 
   //
   // This normally defaults to 'app', but we set this to 'src' for Vite compatibility.
-  "baseDirectory": "src",
+  "sourceDirectory": "src",
     
   // Reflame will use this to keep your app up to date as we make improvements. 
   "foundation": {
