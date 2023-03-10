@@ -13,6 +13,9 @@ import * as reactDom from 'react-dom/client'
 // import App from '/App.jsx'
 import App from './App.jsx'
 
+// CSS imports also work out of the box
+import './global.css'
+
 export const init = () => {
   reactDom
     .createRoot(document.getElementById('root'))

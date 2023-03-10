@@ -11,7 +11,7 @@
   // This is the description that shows up in Google search.
   "description": "A new Reflame app.",
 
-  // Reflame will watch this directory for your React source code and ship changes
+  // Reflame will watch this directory for your React source code and deploy changes
   // instantly. 
   //
   // This normally defaults to 'app', but we set this to 'src' for Vite compatibility.
@@ -20,7 +20,12 @@
   // Reflame will use this to keep your app up to date as we make improvements. 
   "foundation": {
     "name": "vite-react",
-    "version": 1,
+    "version": 2,
+  },
+  
+  // Enables nodejs compatibility mode for extensionless imports for JS/TS modules
+  "nodejsCompatibility": {
+    "omitModuleExtension": true,
   },
 
   // NPM packages listed here will be installed by Reflame every time you update this file.
@@ -29,12 +34,8 @@
   // Including dev-time dependencies that run in node can result in deploy failures and poor
   // performance.
   "npmPackages": {
-    // // This key is the name we'll use to import the package.
-    // "framer-motion": {
-    //   // This is the name of the package on NPM.
-    //   "name": "framer-motion",
-    //   // Version range of the package to use.
-    //   "version": "^6.2.8",
+    // // Specify npm packages in the same format as you would with package.json
+    // "framer-motion": "^6.2.8",
     // },
   },
 }
