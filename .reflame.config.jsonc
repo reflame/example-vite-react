@@ -36,6 +36,5 @@
   "npmPackages": {
     // // Specify npm packages in the same format as you would with package.json
     // "framer-motion": "^6.2.8",
-    // },
   },
 }
